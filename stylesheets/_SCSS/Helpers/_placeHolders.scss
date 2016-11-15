@@ -2,22 +2,43 @@
 
 %navBar
 {
+    position: fixed;
+
     width: $navWidth;
     height: $navHeight;
 
     color: $whiteColor;
-    background-color: $darkGreen;
     border-bottom: 1px solid $goldColor;
+    background-color: $darkGreen;
 }
 
-%navButtons {
-  height: $navHeight;
-  min-width: 60px;
-  max-width: 120px;
-  margin: 0 10px;
-  display: inline-block;
-  color: $whiteColor;
-  line-height: $navHeight;
-  font-size: 12px;
-  font-family: sans-serif;
+%navButtons
+{
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: $navHeight;
+
+    display: inline-block;
+
+    min-width: 60px;
+    max-width: 120px;
+    height: $navHeight;
+    margin: 0 17px;
+
+    cursor: pointer;
+    vertical-align: middle;
+
+    color: $whiteColor;
+}
+
+%goldLine
+{
+    position: absolute;
+    top: 0;
+    right: 196px;
+
+    width: 1px;
+    height: $navHeight;
+
+    background-color: $goldColor;
 }
