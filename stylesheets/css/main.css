@@ -1,9 +1,3 @@
-#navBar {
-  width: 100vw;
-  height: 74px;
-  color: #fff;
-  background-color: #286118; }
-
 /* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -134,12 +128,18 @@ table {
   border-collapse: collapse; }
 
 #navBar {
+  width: 100vw;
+  height: 74px;
+  color: #fff;
+  background-color: #286118; }
+
+#navBar {
   border-bottom: 1px solid #e0ba22; }
   #navBar #navLogo {
     float: left;
     width: auto;
     height: 74px;
-    background: url(logoWBTHoriz_100h) no-repeat; }
+    background: url("logoWBTHoriz_100h.png") no-repeat; }
   #navBar #navButtons ul {
     display: inline-block;
     float: right; }
