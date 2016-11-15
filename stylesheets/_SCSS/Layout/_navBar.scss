@@ -12,6 +12,8 @@
         height: $navHeight;
         margin-left: 15px;
 
+        cursor: pointer;
+
         background: url('../../imgs/logoWBTHoriz_100h.png') no-repeat;
         background-position: center;
         background-size: 100%;
@@ -21,7 +23,7 @@
     {
         float: right;
 
-        width: 500px;
+        width: 550px;
         height: $navHeight;
         ul
         {
@@ -32,7 +34,14 @@
 
             li
             {
+                transition: .33s;
+
                 @extend %navButtons;
+
+                &:hover
+                {
+                    color: $goldColor;
+                }
             }
 
             #navSearch
@@ -53,12 +62,12 @@
 
             #lineRight
             {
-                margin: 0 34px 0 0;
+                margin: 0 34px 0 17px;
             }
 
             #lineLeft
             {
-                margin: 0 0 0 34px;
+                margin: 0 17px 0 34px;
             }
         }
     }

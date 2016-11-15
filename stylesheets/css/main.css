@@ -145,13 +145,14 @@ table {
   height: 74px;
   margin: 0 17px;
   cursor: pointer;
+  text-align: center;
   vertical-align: middle;
   color: #fff; }
 
 #navBar #goldLine {
   position: absolute;
   top: 0;
-  right: 196px;
+  right: 214px;
   width: 1px;
   height: 74px;
   background-color: #e0ba22; }
@@ -165,18 +166,23 @@ body {
   width: 200px;
   height: 74px;
   margin-left: 15px;
+  cursor: pointer;
   background: url("../../imgs/logoWBTHoriz_100h.png") no-repeat;
   background-position: center;
   background-size: 100%; }
 
 #navBar #navButtons {
   float: right;
-  width: 500px;
+  width: 550px;
   height: 74px; }
   #navBar #navButtons ul {
     float: right;
     width: auto;
     height: 100%; }
+    #navBar #navButtons ul li {
+      transition: .33s; }
+      #navBar #navButtons ul li:hover {
+        color: #e0ba22; }
     #navBar #navButtons ul #navSearch {
       -webkit-transform: scaleX(-1);
       -moz-transform: scaleX(-1);
@@ -188,6 +194,6 @@ body {
       filter: FlipH;
       -ms-filter: 'FlipH'; }
     #navBar #navButtons ul #lineRight {
-      margin: 0 34px 0 0; }
+      margin: 0 34px 0 17px; }
     #navBar #navButtons ul #lineLeft {
-      margin: 0 0 0 34px; }
+      margin: 0 17px 0 34px; }
