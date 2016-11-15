@@ -20,21 +20,24 @@
 
     #navButtons
     {
-      display: inline-block;
       height: $navHeight;
       width: 600px;
       float: right;
         ul
         {
-            display: inline-block;
             float: right;
             height: $navHeight;
             width: auto;
-            text-align: center;
 
             li
             {
                 @extend %navButtons;
+            }
+
+            #navSearch {
+              background: url(../../imgs/iconSearchWhite.png) no-repeat;
+              background-position: center;
+              background-size: 40%;
             }
         }
     }
