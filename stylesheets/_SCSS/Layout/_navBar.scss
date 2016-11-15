@@ -2,7 +2,6 @@
 
 #navBar
 {
-    border-bottom: 1px solid $goldColor;
 
     @extend %navBar;
 
@@ -10,22 +9,32 @@
     {
         float: left;
 
-        width: auto;
+        width: 200px;
         height: $navHeight;
 
-        background: url('logoWBTHoriz_100h.png') no-repeat;
+        background: url('../../imgs/logoWBTHoriz_100h.png') no-repeat;
+        background-size: 100%;
+        background-position: center;
+        margin-left: 15px;
     }
 
     #navButtons
     {
+      display: inline-block;
+      height: $navHeight;
+      width: 600px;
+      float: right;
         ul
         {
             display: inline-block;
             float: right;
+            height: $navHeight;
+            width: auto;
+            text-align: center;
 
             li
             {
-                color: $whiteColor;
+                @extend %navButtons;
             }
         }
     }

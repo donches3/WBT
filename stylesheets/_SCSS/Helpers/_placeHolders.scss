@@ -7,4 +7,18 @@
 
     color: $whiteColor;
     background-color: $darkGreen;
+    border-bottom: 1px solid $goldColor;
+}
+
+%navButtons {
+  height: $navHeight;
+  min-width: 60px;
+  max-width: 120px;
+  margin: 0 10px;
+  display: inline-block;
+  color: $whiteColor;
+  text-align: center;
+  line-height: $navHeight;
+  font-size: 12px;
+  font-family: sans-serif;
 }

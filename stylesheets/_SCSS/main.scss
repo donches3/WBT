@@ -2,15 +2,15 @@
 
 // Helpers Importing
 
-@import 'helpers/reset';
-@import 'helpers/vars';
-@import 'helpers/mixins';
-@import 'helpers/placeHolders';
-
-// Layout Importing
-
-@import 'layout/navBar';
+@import 'Helpers/reset';
+@import 'Helpers/vars';
+@import 'Helpers/mixins';
+@import 'Helpers/placeHolders';
 
 // Pages Importing
 
-@import 'pages/splash';
+@import 'Pages/splash';
+
+// Layout Importing
+
+@import 'Layout/navBar';

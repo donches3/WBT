@@ -131,17 +131,42 @@ table {
   width: 100vw;
   height: 74px;
   color: #fff;
-  background-color: #286118; }
-
-#navBar {
+  background-color: #286118;
   border-bottom: 1px solid #e0ba22; }
-  #navBar #navLogo {
-    float: left;
-    width: auto;
-    height: 74px;
-    background: url("logoWBTHoriz_100h.png") no-repeat; }
+
+#navBar #navButtons ul li {
+  height: 74px;
+  min-width: 60px;
+  max-width: 120px;
+  margin: 0 10px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  line-height: 74px;
+  font-size: 12px;
+  font-family: sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+#navBar #navLogo {
+  float: left;
+  width: 200px;
+  height: 74px;
+  background: url("../../imgs/logoWBTHoriz_100h.png") no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin-left: 15px; }
+
+#navBar #navButtons {
+  display: inline-block;
+  height: 74px;
+  width: 600px;
+  float: right; }
   #navBar #navButtons ul {
     display: inline-block;
-    float: right; }
-    #navBar #navButtons ul li {
-      color: #fff; }
+    float: right;
+    height: 74px;
+    width: auto;
+    text-align: center; }
