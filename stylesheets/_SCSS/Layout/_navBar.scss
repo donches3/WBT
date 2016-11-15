@@ -1,0 +1,32 @@
+// NavBar Layout File
+
+#navBar
+{
+    border-bottom: 1px solid $goldColor;
+
+    @extend %navBar;
+
+    #navLogo
+    {
+        float: left;
+
+        width: auto;
+        height: $navHeight;
+
+        background: url(logoWBTHoriz_100h) no-repeat;
+    }
+
+    #navButtons
+    {
+        ul
+        {
+            display: inline-block;
+            float: right;
+
+            li
+            {
+                color: $whiteColor;
+            }
+        }
+    }
+}

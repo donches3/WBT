@@ -1,3 +1,16 @@
 // Main SCSS File
 
+// Helpers Importing
+
+@import 'helpers/vars';
 @import 'helpers/mixins';
+@import 'helpers/placeHolders';
+@import 'helpers/reset';
+
+// Layout Importing
+
+@import 'layout/navBar';
+
+// Pages Importing
+
+@import 'pages/splash';
