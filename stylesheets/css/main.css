@@ -157,6 +157,11 @@ table {
   height: 74px;
   background-color: #e0ba22; }
 
+#splash {
+  width: 100vw;
+  height: 600px;
+  background-color: #286118; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -197,3 +202,14 @@ body {
       margin: 0 34px 0 17px; }
     #navBar #navButtons ul #lineLeft {
       margin: 0 17px 0 34px; }
+
+#splash #splashText {
+  display: block;
+  width: 90vw;
+  height: 30vw;
+  margin: 0 auto;
+  padding-top: 180px;
+  text-align: center;
+  color: #fff; }
+  #splash #splashText h1 {
+    font-size: 36px; }
