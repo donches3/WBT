@@ -136,7 +136,7 @@ table {
   background-color: #286118; }
 
 #navBar #navButtons ul li {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 74px;
   display: inline-block;
@@ -160,6 +160,32 @@ table {
 #splash {
   width: 100vw;
   height: 600px;
+  border-bottom: 1px solid #e0ba22;
+  background-color: #286118; }
+
+#splash #splashText {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  width: 90vw;
+  height: 30vw;
+  margin: 0 auto;
+  padding-top: 220px;
+  text-align: center;
+  color: #fff; }
+
+#splash #splashText #splashButton {
+  line-height: 48px;
+  width: 180px;
+  height: 48px;
+  margin: 0 auto;
+  text-align: center;
+  color: #0a3d11;
+  border-radius: 4px;
+  background-color: #e0ba22; }
+
+#splashContent {
+  width: 100vw;
+  height: 1000px;
   background-color: #286118; }
 
 body {
@@ -203,13 +229,12 @@ body {
     #navBar #navButtons ul #lineLeft {
       margin: 0 17px 0 34px; }
 
-#splash #splashText {
-  display: block;
-  width: 90vw;
-  height: 30vw;
-  margin: 0 auto;
-  padding-top: 180px;
-  text-align: center;
-  color: #fff; }
-  #splash #splashText h1 {
-    font-size: 36px; }
+#splash #splashText h1 {
+  font-size: 44px;
+  font-weight: 200;
+  margin-bottom: 25px; }
+
+#splash #splashText h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px; }

@@ -6,20 +6,27 @@
 
     #splashText
     {
-        display: block;
-
-        width: 90vw;
-        height: 30vw;
-        margin: 0 auto;
-        padding-top: 180px;
-
-        text-align: center;
-
-        color: $whiteColor;
+        @extend %splashText;
 
         h1
         {
-            font-size: 36px;
+            font-size: 44px;
+            font-weight: 200;
+
+            margin-bottom: 25px;
+        }
+
+        h2
+        {
+            font-size: 24px;
+            font-weight: 600;
+
+            margin-bottom: 30px;
+        }
+
+        #splashButton
+        {
+            @extend %splashButton;
         }
     }
 }

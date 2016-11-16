@@ -8,13 +8,13 @@
     height: $navHeight;
 
     color: $whiteColor;
-    border-bottom: 1px solid $goldColor;
+    border-bottom: $goldBorder;
     background-color: $darkGreen;
 }
 
 %navButtons
 {
-    font-family: sans-serif;
+    font-family: $fontHeader;
     font-size: 12px;
     line-height: $navHeight;
 
@@ -48,6 +48,47 @@
 {
     width: $navWidth;
     height: 600px;
+
+    border-bottom: $goldBorder;
+    background-color: $darkGreen;
+}
+
+%splashText
+{
+    font-family: $fontHeader;
+
+    display: block;
+
+    width: 90vw;
+    height: 30vw;
+    margin: 0 auto;
+    padding-top: 220px;
+
+    text-align: center;
+
+    color: $whiteColor;
+}
+
+%splashButton
+{
+    line-height: 48px;
+
+    width: 180px;
+    height: 48px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: $greenText;
+    border-radius: 4px;
+    background-color: $goldColor;
+}
+
+%splashContent
+{
+    width: $navWidth;
+    // change height to auto when we add content
+    height: 1000px;
 
     background-color: $darkGreen;
 }
