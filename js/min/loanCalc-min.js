@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#loanCalc").accrue({mode:"amortization"})});

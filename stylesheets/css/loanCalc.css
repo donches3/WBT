@@ -157,48 +157,24 @@ table {
   height: 74px;
   background-color: #e0ba22; }
 
-#splash {
-  width: 100vw;
-  height: 600px;
-  border-bottom: 1px solid #e0ba22;
-  background-color: #286118; }
-
-#splash #splashText {
-  font-family: "Roboto", sans-serif;
-  display: block;
-  width: 90vw;
-  height: 30vw;
-  margin: 0 auto;
-  padding-top: 240px;
-  text-align: center;
-  color: #fff; }
-
-#splash #splashText #splashButton {
-  line-height: 48px;
-  width: 180px;
-  height: 48px;
-  margin: 0 auto;
-  text-align: center;
-  color: #0a3d11;
-  border-radius: 4px;
-  background-color: #e0ba22; }
-
-#splashContent {
-  width: 100vw;
-  height: auto;
-  background-color: #286118; }
-
-.bigContent {
-  display: inline-block;
-  width: 770px;
-  height: 770px;
-  margin: 15px;
-  background: url("../../imgs/stockSunsetWheat.jpg") no-repeat;
-  background-size: cover; }
-
 body {
   margin: 0;
-  padding: 0; }
+  background-color: #fbf7e4; }
+
+#loanCalcPosition {
+  width: 600px;
+  height: 1000px;
+  margin: 0 auto;
+  padding-top: 92px; }
+  #loanCalcPosition #loanCalcBox {
+    background-color: #cbd9c7; }
+    #loanCalcPosition #loanCalcBox h3 {
+      font-family: 'Helvetica', sans-serif;
+      font-size: 26px; }
+    #loanCalcPosition #loanCalcBox #loanCalc {
+      width: auto;
+      height: auto;
+      margin: 0 auto; }
 
 #navBar #navLogo {
   float: left;
@@ -236,88 +212,3 @@ body {
       margin: 0 34px 0 17px; }
     #navBar #navButtons ul #lineLeft {
       margin: 0 17px 0 34px; }
-
-#splash #splashText h1 {
-  font-size: 44px;
-  font-weight: 200;
-  margin-bottom: 25px; }
-
-#splash #splashText h2 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 30px; }
-
-#splashContentBox {
-  width: auto;
-  height: auto;
-  margin: 0 30px;
-  background-color: #286118; }
-
-.contentGreen {
-  display: inline-block;
-  width: 370px;
-  height: 370px;
-  margin: 15px;
-  vertical-align: top;
-  background-color: #cbd9c7; }
-
-.contentCream {
-  display: inline-block;
-  width: 370px;
-  height: 370px;
-  margin: 15px;
-  vertical-align: top;
-  background-color: #fbf7e4; }
-
-.horizContent {
-  display: inline-block;
-  width: 770px;
-  height: 370px;
-  margin: 15px;
-  vertical-align: top;
-  background-color: #95b18d; }
-
-.vertContent {
-  vertical-align: bottom;
-  display: inline-block;
-  width: 370px;
-  height: 770px;
-  margin: 15px;
-  vertical-align: top;
-  background-color: #95b18d; }
-
-.contentMix {
-  float: right;
-  display: inline-block;
-  width: 370px;
-  height: 370px;
-  vertical-align: top;
-  background-color: #cbd9c7; }
-
-.bigContent {
-  vertical-align: top; }
-
-.textBox {
-  font-family: "Helvetica", sans-serif;
-  width: 200px;
-  height: auto;
-  margin: 30px; }
-  .textBox h3 {
-    font-size: 14px;
-    margin: 0 0 50px 0; }
-  .textBox h2 {
-    font-size: 22px;
-    margin: 0 0 50px 0; }
-  .textBox p {
-    font-size: 12px; }
-
-#calcMort {
-  background: url("../../imgs/iconCalcMort.png") no-repeat;
-  background-color: #95b18d; }
-
-#iconCalcLoan {
-  background: url("../../imgs/iconCalcLoan.png") no-repeat;
-  background-color: #95b18d; }
-
-#vertMove {
-  margin-top: 400px; }

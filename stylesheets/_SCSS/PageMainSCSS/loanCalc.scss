@@ -1,0 +1,16 @@
+// Loan Calculator Main SCSS File
+
+// Helpers Importing
+
+@import '../helpers/reset';
+@import '../helpers/vars';
+@import '../helpers/mixins';
+@import '../helpers/placeHolders';
+
+// Pages Importing
+
+@import '../pages/loanCalc';
+
+// Layout Importing
+
+@import '../layout/navBar';

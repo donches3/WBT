@@ -1,1 +1,39 @@
 // Mixins SCSS File
+
+@mixin contentRectangle ($rectangleHeight, $rectangleWidth, $rectangleBGColor)
+{
+    display: inline-block;
+
+    width: $rectangleWidth;
+    height: $rectangleHeight;
+    margin: 15px;
+
+    vertical-align: top;
+
+    background-color: $rectangleBGColor;
+}
+
+@mixin contentSquare ($contentHeight, $contentWidth, $contentBGColor)
+{
+    display: inline-block;
+
+    width: $contentWidth;
+    height: $contentHeight;
+    margin: 15px;
+
+    vertical-align: top;
+
+    background-color: $contentBGColor;
+}
+
+@mixin contentMix ($contentHeight, $contentWidth, $contentBGColor)
+{
+    display: inline-block;
+
+    width: $contentWidth;
+    height: $contentHeight;
+
+    vertical-align: top;
+
+    background-color: $contentBGColor;
+}

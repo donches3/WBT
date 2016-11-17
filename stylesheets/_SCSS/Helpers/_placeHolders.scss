@@ -87,8 +87,19 @@
 %splashContent
 {
     width: $navWidth;
-    // change height to auto when we add content
-    height: 1000px;
+    height: auto;
 
     background-color: $darkGreen;
+}
+
+%bigContent
+{
+    display: inline-block;
+
+    width: $contentRectangle;
+    height: $contentRectangle;
+    margin: 15px;
+
+    background: url('../../imgs/stockSunsetWheat.jpg') no-repeat;
+    background-size: cover;
 }
