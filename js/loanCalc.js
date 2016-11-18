@@ -9,4 +9,13 @@ $(document).ready(function() {
 
     });
 
+    $('#amortButton').click(function() {
+
+        $('#amortization').slideToggle();
+
+        $('#amortButton').toggleClass('.hideSchedule');
+
+    });
+
+
 });

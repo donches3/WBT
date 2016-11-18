@@ -2,6 +2,8 @@
 
 #navBar
 {
+    z-index: 2;
+
     @extend %navBar;
 
     #navLogo

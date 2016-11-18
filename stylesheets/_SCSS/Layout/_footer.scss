@@ -1,0 +1,51 @@
+// Footer SCSS File
+
+#footer
+{
+    margin-top: 10px;
+
+    @extend %footer;
+
+
+    #footerWrapper
+    {
+        @extend %footerWrapper;
+
+        .footerHeader
+        {
+            @extend %footerHeader;
+        }
+
+        .footerItem
+        {
+            @extend %footerItem;
+        }
+    }
+
+    .footerDiv
+    {
+        @extend %footerDiv;
+    }
+
+    #socialMedia
+    {
+        @extend %socialMedia;
+
+        #twitter
+        {
+            @include socialMediaIcon('../../imgs/iconSocial_Twitter_128.png');
+        }
+        #faceBook
+        {
+            @include socialMediaIcon('../../imgs/iconSocial_Facebook_128.png');
+        }
+        #googlePlus
+        {
+            @include socialMediaIcon('../../imgs/iconSocial_GooglePlus_128.png');
+        }
+        #instagram
+        {
+            @include socialMediaIcon('../../imgs/iconSocial_Instagram_128.png');
+        }
+    }
+}

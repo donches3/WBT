@@ -103,3 +103,74 @@
     background: url('../../imgs/stockSunsetWheat.jpg') no-repeat;
     background-size: cover;
 }
+
+%footer
+{
+    font-family: $fontBody;
+    font-size: 12px;
+
+    width: $navWidth;
+    height: $footerHeight;
+
+    vertical-align: top;
+
+    color: $whiteColor;
+    border-top: $goldBorder;
+    background-color: $darkGreen;
+}
+
+%footerWrapper
+{
+    width: auto;
+    height: auto;
+    margin: 0 30px;
+
+    vertical-align: top;
+}
+
+%footerDiv
+{
+    display: inline-block;
+
+    width: 100px;
+    height: 100%;
+    margin: 50px 100px;
+
+    vertical-align: top;
+}
+
+%footerHeader
+{
+    font-size: 14px;
+    font-weight: bold;
+
+    margin-bottom: 24px;
+}
+
+%footerItem
+{
+    margin-bottom: 15px;
+}
+
+%socialMedia
+{
+    font-family: $fontBody;
+    font-size: 14px;
+
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+%formStyleLabel
+{
+    line-height: 40px;
+
+    width: 400px;
+    height: 40px;
+    margin-bottom: 18px;
+
+    background-color: $lightGreen;
+}

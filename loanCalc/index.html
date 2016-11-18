@@ -5,7 +5,7 @@
 
     <link rel="stylesheet" type="text/css" href="../stylesheets/css/loanCalc.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="../js/min/jquery.accrue.min.js"></script>
+    <script src="../js/min/accrue-min.js"></script>
     <script src="../js/min/loanCalc-min.js"></script>
 
 </head>
@@ -13,8 +13,11 @@
 <body>
 
     <!-- NavBar -->
+
     <div id="navBar">
-        <div id="navLogo"></div>
+        <a href="../index.html">
+            <div id="navLogo"></div>
+        </a>
         <div id="navButtons">
             <ul>
                 <li>Services</li>
@@ -29,14 +32,114 @@
         </div>
     </div>
 
+    <!-- Loan Calculator -->
+
     <div id="loanCalcPosition">
         <div id="loanCalcBox">
 
             <h3>Loan Calculator</h3>
-            <div id="loanCalc"></div>
+            <p id="loanCalcParagraph">To determine the monthly payments on a loan, simply enter the loan amount, term and interest rate in the fields below and click calculate.</p>
 
+            <div id="loanCalc">
+                <div class="form styleForm">
+                    <div class="accrue-field-amount formStyleLabel">
+                        <label>Loan Amount</label>
+                        <span>$</span>
+                        <input type="text" class="amount" value="10,000" />
+                    </div>
+                    <div class="accrue-field-rate formStyleLabel">
+                        <label>Interest Rate</label>
+                        <span>%</span>
+                        <input id="rate" type="text" class="rate" value="5" />
+                    </div>
+                    <div class="accrue-field-term formStyleLabel">
+                        <label>Loan Term</label>
+                        <span>Months</span>
+                        <input id="term" type="text" class="term" value="5m" />
+                    </div>
+                    <button class="longButton accrue-calculate">Calculate</button>
+                    <button class="longButton showSchedule" id="amortButton"></button>
+
+                </div>
+
+                <div id="resultsChart">
+                    <p id="paymentTitle">Monthly Payments</p>
+                    <span id="payment"></span>
+                    <div id="pieChart"></div>
+                    <span id="totalPaid"></span><br>
+                    <span id="totalPaidTitle">Total Paid</span>
+                </div>
+
+                <div id="amortization">
+                    <h3>Amortization Schedule</h3>
+
+                    <div class="results">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="marginDiv"></div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+    <!-- Footer HTML -->
+
+    <div id="footer">
+        <div id="footerWrapper">
+            <div class="footerDiv">
+                <ul>
+                    <li class="footerHeader">Company</li>
+                    <li class="footerItem">About Us</li>
+                    <li class="footerItem">Press</li>
+                    <li class="footerItem">Careers</li>
+                    <li class="footerItem">Reviews</li>
+                    <li class="footerItem">Policies</li>
+                </ul>
+            </div>
+            <div class="footerDiv">
+                <ul>
+                    <li class="footerHeader">Help</li>
+                    <li class="footerItem">ATM Finder</li>
+                    <li class="footerItem">FAQ</li>
+                    <li class="footerItem">Support</li>
+                </ul>
+            </div>
+            <div class="footerDiv">
+                <ul>
+                    <li class="footerHeader">Get the App</li>
+                    <li class="footerItem">App Store</li>
+                    <li class="footerItem">Google Play</li>
+                </ul>
+            </div>
+            <div class="footerDiv">
+                <ul>
+                    <li class="footerHeader">Contact Us</li>
+                    <li class="footerItem">Phone</li>
+                    <li class="footerItem">Email</li>
+                </ul>
+            </div>
+            <div id="socialMedia">
+                <h3>Join Our Community</h3>
+                <div id="twitter"></div>
+                <div id="faceBook"></div>
+                <div id="googlePlus"></div>
+                <div id="instagram"></div>
+            </div>
         </div>
     </div>
+
 
 </body>
 

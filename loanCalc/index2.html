@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="../stylesheets/css/loanCalc.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../js/min/accrue-min.js"></script>
+    <script src="../js/min/loanCalc-min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <div id="navBar">
+        <div id="navLogo"></div>
+        <div id="navButtons">
+            <ul>
+                <li>Services</li>
+                <li>Features</li>
+                <li id="lineRight">About Us</li>
+                <li id="lineLeft">Client Login</li>
+                <li id="navSearch"></li>
+            </ul>
+
+            <div id="goldLine"></div>
+
+        </div>
+    </div>
+
+    <div id="loanCalcPosition">
+        <div id="loanCalcBox">
+
+            <h3>Loan Calculator</h3>
+
+            <div id="loanCalc">
+                <div class="form">
+                    <form>
+                        <input type="text" name="amount" />
+                        <input type="text" name="rate" />
+                        <input type="text" name="term" />
+                        <button class="accrue-calculate">Calculate</button>
+                    </form>
+
+                    <div class="results"></div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer HTML -->
+
+    <div id="footer">
+        <div id="footerWrapper">
+            <div class="footerDiv">
+                <ul>
+                    <li class="footerHeader">Company</li>
+                    <li class="footerItem">About Us</li>
+                    <li class="footerItem">Press</li>
+                    <li class="footerItem">Careers</li>
+                    <li class="footerItem">Reviews</li>
+                    <li class="footerItem">Policies</li>
+                </ul>
+            </div>
+            <div class="footerDiv">
+                <ul>
+                    <li class="footerHeader">Help</li>
+                    <li class="footerItem">ATM Finder</li>
+                    <li class="footerItem">FAQ</li>
+                    <li class="footerItem">Support</li>
+                </ul>
+            </div>
+            <div class="footerDiv">
+                <ul>
+                    <li class="footerHeader">Get the App</li>
+                    <li class="footerItem">App Store</li>
+                    <li class="footerItem">Google Play</li>
+                </ul>
+            </div>
+            <div class="footerDiv">
+                <ul>
+                    <li class="footerHeader">Contact Us</li>
+                    <li class="footerItem">Phone</li>
+                    <li class="footerItem">Email</li>
+                </ul>
+            </div>
+            <div id="socialMedia">
+                <h3>Join Our Community</h3>
+                <div id="twitter"></div>
+                <div id="faceBook"></div>
+                <div id="googlePlus"></div>
+                <div id="instagram"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+<!-- CSS For Calc -->
+<!--
+.form
+{
+    width: 100px;
+    height: 100px;
+
+    background-color: $lightGreen;
+}
+
+.results
+{
+    width: auto;
+    height: auto;
+
+    background: $creamColor;
+} -->
