@@ -183,10 +183,12 @@ table {
 #footer #footerWrapper .footerHeader {
   font-size: 14px;
   font-weight: bold;
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+  cursor: pointer; }
 
 #footer #footerWrapper .footerItem {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  cursor: pointer; }
 
 #footer #socialMedia {
   font-family: "Helvetica", sans-serif;
@@ -194,6 +196,7 @@ table {
   width: 300px;
   height: 50px;
   margin: 0 auto;
+  cursor: pointer;
   text-align: center; }
 
 .formStyleLabel {
@@ -398,37 +401,41 @@ input[type='text'] {
       #navBar #navButtons ul #lineLeft {
         margin: 0 17px 0 34px; }
 
-#footer {
-  margin-top: 10px; }
-  #footer #socialMedia #twitter {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-    background: url("../../imgs/iconSocial_Twitter_128.png") no-repeat;
-    background-position: center;
-    background-size: 50%; }
-  #footer #socialMedia #faceBook {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-    background: url("../../imgs/iconSocial_Facebook_128.png") no-repeat;
-    background-position: center;
-    background-size: 50%; }
-  #footer #socialMedia #googlePlus {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-    background: url("../../imgs/iconSocial_GooglePlus_128.png") no-repeat;
-    background-position: center;
-    background-size: 50%; }
-  #footer #socialMedia #instagram {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-    background: url("../../imgs/iconSocial_Instagram_128.png") no-repeat;
-    background-position: center;
-    background-size: 50%; }
+#footer #footerWrapper .footerItem:hover {
+  color: #e0ba22; }
+
+#footer #socialMedia #twitter {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background: url("../../imgs/iconSocial_Twitter_128.png") no-repeat;
+  background-position: center;
+  background-size: 50%; }
+
+#footer #socialMedia #faceBook {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background: url("../../imgs/iconSocial_Facebook_128.png") no-repeat;
+  background-position: center;
+  background-size: 50%; }
+
+#footer #socialMedia #googlePlus {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background: url("../../imgs/iconSocial_GooglePlus_128.png") no-repeat;
+  background-position: center;
+  background-size: 50%; }
+
+#footer #socialMedia #instagram {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background: url("../../imgs/iconSocial_Instagram_128.png") no-repeat;
+  background-position: center;
+  background-size: 50%; }

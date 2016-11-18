@@ -2,8 +2,7 @@
 
 #footer
 {
-    margin-top: 10px;
-
+    // margin-top: 10px;
     @extend %footer;
 
 
@@ -19,6 +18,11 @@
         .footerItem
         {
             @extend %footerItem;
+        }
+
+        .footerItem:hover
+        {
+            color: $goldColor;
         }
     }
 

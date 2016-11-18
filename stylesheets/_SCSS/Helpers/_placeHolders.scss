@@ -145,11 +145,15 @@
     font-weight: bold;
 
     margin-bottom: 24px;
+
+    cursor: pointer;
 }
 
 %footerItem
 {
     margin-bottom: 15px;
+
+    cursor: pointer;
 }
 
 %socialMedia
@@ -161,6 +165,7 @@
     height: 50px;
     margin: 0 auto;
 
+    cursor: pointer;
     text-align: center;
 }
 
