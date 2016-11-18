@@ -55,7 +55,7 @@
                     <div class="accrue-field-term formStyleLabel">
                         <label>Loan Term</label>
                         <span>Months</span>
-                        <input id="term" type="text" class="term" value="5m" />
+                        <input id="term" type="text" class="term" value="5y" />
                     </div>
                     <button class="longButton accrue-calculate">Calculate</button>
                     <button class="longButton showSchedule" id="amortButton"></button>
@@ -63,11 +63,13 @@
                 </div>
 
                 <div id="resultsChart">
-                    <p id="paymentTitle">Monthly Payments</p>
-                    <span id="payment"></span>
+                    <div id="paymentDiv">
+                        <p id="paymentTitle">Monthly Payments</p>
+                        <span id="payment"></span></div>
                     <div id="pieChart"></div>
-                    <span id="totalPaid"></span><br>
-                    <span id="totalPaidTitle">Total Paid</span>
+                    <div id="paidDiv"><span id="totalPaid"></span><br>
+                        <p id="totalPaidTitle">Total Paid</p>
+                    </div>
                 </div>
 
                 <div id="amortization">

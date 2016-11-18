@@ -308,7 +308,7 @@ input[type='text'] {
 .showSchedule::after {
   content: 'Show Amortization Schedule'; }
 
-.hideSchedule .hideSchedule::after {
+.hideSchedule::after {
   content: 'Hide Amortization Schedule'; }
 
 #amortization {
@@ -320,33 +320,41 @@ input[type='text'] {
   display: inline-block;
   float: right;
   width: 240px;
-  height: 240px;
+  height: 270px;
   margin-right: 18px;
   color: #0a3d11;
   background-color: #cbd9c7; }
   #resultsChart h3 {
     margin: 0; }
-  #resultsChart #payment {
-    font-size: 24px;
-    margin: 0 32%;
+  #resultsChart #paymentDiv {
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
     text-align: center; }
-  #resultsChart #paymentTitle {
-    font-size: 16px;
-    margin: 10px 0;
-    text-align: center;
-    color: #0a3d11; }
-  #resultsChart #totalPaid {
-    font-size: 24px;
-    position: absolute;
-    bottom: 36px;
-    left: 30%;
+    #resultsChart #paymentDiv #payment {
+      font-size: 26px;
+      text-align: center; }
+    #resultsChart #paymentDiv #paymentTitle {
+      font-size: 18px;
+      margin: 10px 0;
+      text-align: center;
+      color: #0a3d11; }
+  #resultsChart #paidDiv {
+    max-width: 200px;
+    height: 54px;
+    margin: 0 auto;
+    margin-top: 140px;
     text-align: center; }
-  #resultsChart #totalPaidTitle {
-    font-size: 16px;
-    position: absolute;
-    bottom: 10px;
-    left: 38%;
-    text-align: center; }
+    #resultsChart #paidDiv #totalPaid {
+      font-size: 26px;
+      margin: 10px;
+      margin-bottom: 18px;
+      text-align: center; }
+    #resultsChart #paidDiv #totalPaidTitle {
+      font-size: 18px;
+      margin: 10px 0;
+      text-align: center;
+      color: #0a3d11; }
 
 #marginDiv {
   width: auto;

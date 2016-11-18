@@ -1,1 +1,1 @@
-$(document).ready(function(){$("#loanCalc").accrue({mode:"amortization"}),$("#amortButton").click(function(){$("#amortization").slideToggle(),$("#amortButton").toggleClass(".hideSchedule")})});
+$(document).ready(function(){$("#loanCalc").accrue({mode:"amortization"}),$("#amortButton").click(function(){$("#amortButton").toggleClass("hideSchedule","showSchedule"),$("#amortization").slideToggle()})});

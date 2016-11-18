@@ -11,9 +11,11 @@ $(document).ready(function() {
 
     $('#amortButton').click(function() {
 
+        $('#amortButton').toggleClass("hideSchedule", "showSchedule");
+
         $('#amortization').slideToggle();
 
-        $('#amortButton').toggleClass('.hideSchedule');
+
 
     });
 
