@@ -82,6 +82,7 @@ body
 
                     th
                     {
+                        max-width: 150px;
                         padding: 0 15px;
 
                         text-align: center;
@@ -106,6 +107,9 @@ body
                         border-bottom: 1px solid $darkGreen;
                         background-color: $lightGreen;
                     }
+
+
+
                     tr:nth-child(even)
                     {
                         background-color: $creamColor;

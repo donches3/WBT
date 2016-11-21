@@ -253,6 +253,7 @@ body {
           border-radius: 5px;
           background-color: #286118; }
           #loanCalcPosition #loanCalcBox #loanCalc table thead tr th {
+            max-width: 150px;
             padding: 0 15px;
             text-align: center;
             vertical-align: middle; }
