@@ -216,7 +216,10 @@ input[type='text']
     margin-right: 18px;
 
     color: $greenText;
+    background: url('../../imgs/pieChart.png') no-repeat;
     background-color: $lightGreen;
+    background-position: center;
+    background-size: 120%;
 
     h3
     {
@@ -255,7 +258,7 @@ input[type='text']
         max-width: 200px;
         height: 54px;
         margin: 0 auto;
-        margin-top: 140px;
+        padding-top: 140px;
 
         text-align: center;
 
@@ -281,8 +284,25 @@ input[type='text']
         }
     }
 }
+
 #marginDiv
 {
     width: auto;
     height: 20px;
+}
+
+#chart
+{
+    display: block;
+
+    width: 50px;
+    height: 50px;
+    min-height: 50px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    background: url('../../imgs/pieChart.png') no-repeat;
+    background-color: $greenText;
+    background-size: 20%;
 }
